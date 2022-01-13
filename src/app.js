@@ -1,5 +1,5 @@
-const geocode = require('./util/geocode.js')
-const forecast = require('./util/forecast.js')
+const geocode = require('./utils/geocode.js')
+const forecast = require('./utils/forecast.js')
 
 const path = require('path')
 const express = require('express')

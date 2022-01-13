@@ -17,7 +17,7 @@ weatherForm.addEventListener('submit', (e) => {
                 messageOne.textContent = data.error
             } else {
                 messageOne.textContent = data.location
-                messageTwo.textContent = data.forecast.weather_description + '. It is currently ' + data.forecast.temperature + ' degress out. There is a ' + data.forecast.precip + '% to rain.'
+                messageTwo.textContent = 'It`s ' + data.forecast.observation_time + ' o`clock. The humidity is ' + data.forecast.humidity + '%. ' + data.forecast.weather_description + '. It is currently ' + data.forecast.temperature + ' degress out. There is a ' + data.forecast.precip + '% to rain.'
             }
         })
     })
